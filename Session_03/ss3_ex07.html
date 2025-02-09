@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baitap7</title>
+</head>
+    <h1>Information Form</h1>
+    <form action="http://www.mysever.com" method="post">
+    <label for="Name">Name</label>
+    <input type="text" name="name" id="name"><br/>
+    <label for="Email">Email</label>
+    <input type="text" name="Email" id="Email"><br/>
+    <label for="Dateofbirth">Date of birth</label>
+    <input type="date" name="Date" id="Dateofbirth"><br/>
+    <label for="Sex">Sex</label>
+    <label >
+        <input type="radio" name="Sex" id="sex" value="male">Male
+    </label>
+    <label >
+        <input type="radio" name="sex" id="sex" value="female">Female
+    </label><br/>
+    <label for="Phone">Phone</label>
+    <input type="tel" 
+           name="Phone" 
+           id="phone"
+           pattern="(03|05|07|08|09) [0-9]{8}"
+           maxlength="10"
+           minlength="10"
+           required> <br/>
+           <label for="specialized">Specialized</label>
+           <input type="text" name="specialized" id="specialized"><br/>
+           <label for="year of admission">Year of admission</label>
+           <input type="number" 
+                  name="year of admission" 
+                  id="year of admission"
+                  min="2000"
+                  max="2024"
+                  ><br/>
+            <label for="GPA">GPA</label>
+            <input type="number" 
+                         name="GPA"    
+                         id="GPA"
+                         min="0"
+                         max="4.0">
+                         <br/>
+            <label for="Class">Class</label>
+            <select name="class" id="class">
+                <option value="" placeholder="Choose Class"></option>
+                <option value="ENG-KS24A">ENG-KS24A</option>
+                <option value="ENG-KS24B">ENG-KS24B</option>
+                <option value="ENG-KS24C">ENG-KS24C</option>
+                <option value="JPN-KS24A">JPN-KS24A</option>
+                <option value="JPN-KS24B">JPN-KS24B</option>
+                <option value="JPN-KS24C">JPN-KS24C</option>
+            </select> <br/>
+            <label for="address">Address</label>
+            <textarea name="Address" id="Address"></textarea><br/>
+            <label for="Registration date">Registration date</label>
+            <input type="datetime-local" name="Registration date" id="Registration date">
+            <br/>
+            <button type="submit">Send information</button>
+        </form>
+</body>
+</html>

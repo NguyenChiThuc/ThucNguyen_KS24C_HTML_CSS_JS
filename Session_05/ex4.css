@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.article{   
+    /* Tăng khoảng cách giữa ảnh và nội dung */
+    display: flex;
+    max-width: 800px;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 0 5px gray;
+}
+.article img{
+    width: 300px;
+    object-fit: cover;
+}
+.content{
+    padding: 10px;
+}

@@ -1,0 +1,49 @@
+*{
+    font-family: Liter;
+    font-size: 19px;
+    color: #222222;
+}
+
+.ex06 h3 {
+    font-size: 35px;
+}
+.syxtan {
+    background-color: #f3f3f4;
+    color: #d94871;
+}
+.demo-figure {
+    text-align: center;
+    border: 3px solid green;
+    line-height: 3;
+    margin-bottom: 20px;
+}
+.example-container {
+    background-color: #e5e9ed;
+    padding: 20px;
+}
+.example-container h4 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.demo-code {
+    background-color: white;
+    border-left: 4px solid green;
+    padding: 20px;
+}
+.text-1 {
+    color: #b34c50;
+}
+.text-2 {
+    color: red;
+    padding-left: 20px;
+}
+.text-3 {
+    color: blue;
+}
+.button {
+    background-color: #02ab6c;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,28 @@
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+.button {
+    text-align: center;
+}
+.Title {
+    background-color: #027bff;
+    color: white;
+}
+.view {
+    background-color: #28a745;
+    color: white;
+}
+.update {
+    background-color: #ffc109;
+    color: black;
+}
+.delete {
+    background-color: #dc3545;
+    color: white;
+}
+.current{
+    background-color: #f2f2f2;
+}

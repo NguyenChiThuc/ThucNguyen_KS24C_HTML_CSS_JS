@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8ff;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #1a0644;
+}
+h2 {
+    color: #1a0644;
+}
+.benefits {
+    text-align: left;
+    font-size: 18px;
+}
+.benefits p {
+    display: flex;
+    align-items: center;
+}
+.benefits img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.buttons {
+    margin-top: 20px;
+}
+.first-button {
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.second-button {
+    background-color: #e6e6ff;
+    color: #1a0644;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}

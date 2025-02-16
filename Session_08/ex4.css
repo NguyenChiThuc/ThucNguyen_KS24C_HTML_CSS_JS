@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 3px solid red;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.layout {
+    margin-top: 20px;
+}
+
+.item {
+    width: 50%;
+    float: left; 
+    text-align: left;
+    padding: 20px 0;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    float: left;
+    margin-right: 15px;
+}
+
+.icon img {
+    width: 100%;
+}
+h3 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}

@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #3a2e4f, #24222a);
+    color: white;
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    float: left;
+    width: 50%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    margin-top: 5px;
+}
+
+input {
+    width: 44%;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}

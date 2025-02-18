@@ -1,0 +1,38 @@
+* { margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Arial, sans-serif; 
+}
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    background: #ddd; 
+    padding: 10px 30px;
+}
+.logo { font-family: 'Brush Script MT', cursive; 
+    font-size: 24px; 
+    font-weight: bold; 
+}
+ul { list-style: none; 
+    display: flex; 
+    gap: 20px; 
+}
+li a { text-decoration: none; 
+    color: #555; 
+    font-size: 16px; 
+}
+.active { font-weight: bold; 
+    color: black; 
+}
+button {
+    background: gray; 
+    color: white; 
+    border: none; 
+    padding: 6px 12px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    display: flex; 
+    align-items: center; 
+    gap: 5px;
+}

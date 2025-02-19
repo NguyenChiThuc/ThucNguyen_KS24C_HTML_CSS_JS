@@ -1,0 +1,123 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+  }
+  .body-tablet {
+    display: none;
+  }
+  .header-color {
+    padding: 2vh;
+    background-color: #5995db;
+  }
+  .chump {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+  }
+  .header {
+    background-color: #b2d6ff;
+    height: 20vh;
+  }
+  .partings {
+    display: flex;
+    justify-content: center;
+  }
+  .parting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    width: 33.33%;
+    height: 30vh;
+  }
+  .first-parting {
+    background-color: #f5cf8d;
+  }
+  .second-parting {
+    background-color: #c8c6fa;
+  }
+  .third-parting {
+    background-color: #f09a9d;
+  }
+  .signup {
+    background-color: #d7e9fe;
+    height: 10vh;
+  }
+  .content {
+    background-color: #ebedf0;
+    height: 36vh;
+  }
+  @media screen and (max-width: 1200px) {
+    .body-pc {
+      display: none;
+    }
+    .header {
+      height: 20vh;
+    }
+    .body-tablet {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .content {
+      width: 100%;
+    }
+    .partings {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .parting {
+      width: 50%;
+      height: 20vh;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .body-pc {
+      display: none;
+    }
+    .header {
+      height: 20vh;
+    }
+    .body-tablet {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .content {
+      width: 100%;
+    }
+    .partings {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .parting {
+      width: 50%;
+      height: 20vh;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .body-pc {
+      display: none;
+    }
+    .header {
+      height: 20vh;
+    }
+    .body-tablet {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .content {
+      width: 100%;
+    }
+    .partings {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .parting {
+      width: 100%;
+      height: 20vh;
+    }
+  }

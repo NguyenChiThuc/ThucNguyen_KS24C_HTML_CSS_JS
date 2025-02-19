@@ -1,74 +1,57 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #f8f8f8;
-}
-
-.card {
-    background: white;
-    width: 320px;
-    padding: 15px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(12, 12, 12, 0.1);
+*{
     text-align: center;
 }
-
-.header {
-    background: #d32f2f;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 8px 8px 0 0;
-    position: relative;
+body{
+    width: 300px;
+    background-color: #ffffff;
+    
 }
-
-.hot {
-    background: yellow;
-    color: red;
-    font-size: 12px;
-    padding: 2px 6px;
-    border-radius: 4px;
+.b{
+    background-color: #ed1a35;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 10px;
+}
+.b h3{
+    color: #ffffff;
+}
+.c{
     position: absolute;
     top: -10px;
-    right: -10px;
+    left: 230px;
 }
-
-.info p {
-    font-size: 14px;
-    margin: 5px 0;
+.a{
+    box-shadow: 5px 5px 10px 0px black;
+    border-radius: 20px;
 }
-
-.highlight {
-    color: #e67e22;
+table{
+    margin: 10px;
+    padding: 20px;
+    height: 500px;
 }
-
-.note {
-    font-size: 12px;
-    color: #666;
+tr td{
+    border-bottom: 1px solid gray;
+    font-size: 20px;
 }
-
-button {
-    width: 90%;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 8px;
+span{
+    color: #ffa63a;
+}
+.button1{
+    padding:20px 40px;
     border: none;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.register {
-    background: #d32f2f;
+    border-radius: 20px;
+    background-color: #e81935;
     color: white;
 }
-
-.detail {
-    background: white;
-    color: #d32f2f;
-    border: 2px solid #d32f2f;
+.button2{
+    padding:10px 20px;
+    border:1px solid  #e81935;
+    border-radius: 10px;
+    background-color: white;
+    color: white;
+    color: #e81935;
+    margin-bottom: 20px;
+}
+div{
+    margin: auto;
 }

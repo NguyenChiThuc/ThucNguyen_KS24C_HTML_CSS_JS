@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .dropdown-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-select {
+            width: 200px;
+            text-align: center;
+            background-color: #ff6243;
+            color: white;
+            border: none;
+        }
+        .form-select option {
+            background-color: #ff6243;
+            color: white;
+        }
+
+        .form-select option:checked,
+        .form-select option:hover {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="dropdown-container">
+    <select class="form-select">
+        <option selected>chọn môn học</option>
+        <option value="1">HTML</option>
+        <option value="2">CSS</option>
+        <option value="3">JS</option>
+    </select>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

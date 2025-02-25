@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    border-bottom: 2px solid #ccc;
+    background: white;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button-re {
+    background: black;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.intro {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.intro h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.intro h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.intro p {
+    font-size: 16px;
+    color: gray;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.social button {
+    margin: 10px;
+    padding: 12px 18px;
+    border: 2px solid black;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.skills {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.skills h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.skills-grid div {
+    padding: 15px;
+    border: 2px solid black;
+    font-weight: bold;
+    background: white;
+    border-radius: 5px;
+}
+
+.experience {
+    background: black;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.experience h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.experience-block {
+    max-width: 700px;
+    margin: auto;
+    text-align: left;
+}
+
+.experience-block div {
+    background: #222;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.experience-block h3 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.experience-block p {
+    font-size: 14px;
+    color: #bbb;
+    margin-top: 5px;
+}
+
+.footer {
+    text-align: center;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background: #000000;
+    color: white;
+}
+
+.gg {
+    background-color: #000000 !important;
+    border: 2px solid #27272a;
+}
+
+.apple {
+    background-color: #000000 !important;
+    border: 2px solid #27272a;
+}

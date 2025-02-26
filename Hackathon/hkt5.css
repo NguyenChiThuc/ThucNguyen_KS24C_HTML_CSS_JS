@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #1E2130;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header .avatar-mobile{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: #FEF0E3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 100px;
+    flex-direction: row;
+}
+
+nav .logo{
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+nav .project a{
+    font-size: 16px;
+    color: #000000;
+    margin-right: 24px;
+}
+
+nav .project button{
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border-radius: 32px;
+}
+
+header{
+    background-color: #f9dbc1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;         
+}
+
+header .hi-infor{
+    font-size: 64px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header .infor-container{
+    padding: 32px;
+}
+
+header .infor{
+    font-size: 24px;
+    font-family: "Inter", serif;
+}
+
+header .infor-number{
+    font-size: 64px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header .self-infor-number{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header .self-infor-number .self-1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+header .self-infor-number .self-2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+header .self-infor{
+    font-size: 24px;
+}
+
+header button{
+    background-color: #AC82FC;
+    text-transform: uppercase;
+    padding: 16px 40px;
+    border-radius: 20px;
+}
+
+header button a{
+    color: #000000;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ctn-container-fst{
+    background-color: #C6C2CD;
+}
+
+.ctn-container-fst .portfolio{
+    color: #36009D!important;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ctn-container-fst h2{
+    color: #000000;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-container h4{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ctn-container-fst .content {
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+.ctn-container-snd{
+    background-color: #FFD7D4;
+}
+
+.ctn-container-snd .title{
+    padding-top: 40px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.ctn-container-snd .under-title{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:1200px) {
+    nav a {
+        display: none;
+    }
+
+    nav{
+        justify-content: space-between;
+        padding: 20px 30px;
+    }
+
+    header .infor-container{
+        display: flex;
+        flex-direction: column;
+        padding: 60px 30px;
+    }
+    header .infor-container .self-infor-number{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    header img{
+        width: 500px;
+        height: 600px;
+    }
+    .ctn-container-fst .content img{
+        width: 50%;
+    }
+    .ctn-container-fst h4{
+        font-size: 26px;
+    }
+    .ctn-container-fst .content p{
+        font-size: 16px;
+    }
+    .ctn-container-fst .content {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+    nav a {
+        display: none;
+    }
+
+    nav{
+        justify-content: space-between;
+        padding: 20px 30px;
+    }
+
+    header .avatar-mobile{
+        display: block;
+    }
+
+    header .avatar{
+        display: none;
+    }
+
+    header .infor-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .infor-number{
+        font-size: 48px;
+    }
+
+    header .self-infor-number{
+        display: flex;
+        flex-direction: row!important;
+        justify-content: space-around;
+    }
+
+    .ctn-container-fst .content {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ctn-container-fst .content-container{
+        display: flex;
+        flex-direction: column;
+    }
+}

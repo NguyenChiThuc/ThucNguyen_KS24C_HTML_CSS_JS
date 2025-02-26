@@ -80,7 +80,8 @@ body {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    /* Tạo các cột linh hoạt, với chiều rộng tối thiểu là 120px và tự động lấp đầy không gian. */
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
     gap: 15px;
     max-width: 700px;
     margin: auto;

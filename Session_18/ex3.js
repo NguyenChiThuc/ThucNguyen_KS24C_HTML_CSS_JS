@@ -1,6 +1,6 @@
 let user = prompt("Nhap ten: ")
 let passWord;
-if(user = `ADMIN`){
+if(user == `ADMIN`){
     passWord = prompt("Nhap mat khau: ")
     if(passWord == `TheMaster`){
         alert ` Welcome.`

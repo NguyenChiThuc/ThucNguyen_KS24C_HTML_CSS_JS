@@ -9,7 +9,7 @@ while (choice !== 7) {
 5. Kiểm tra chuỗi có phải là chuỗi đối xứng không
 6. Chuyển đổi chuỗi thành chữ in hoa các ký tự đầu tiên của từ
 7. Thoát chương trình
-==========================
+
 Moi nhap lua chon:`);
   switch (choice) {
     case 1:

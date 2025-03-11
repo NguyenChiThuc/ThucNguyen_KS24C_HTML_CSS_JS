@@ -9,7 +9,7 @@ while (choice !== 7) {
 5. Đếm số lượng từ trong chuỗi ký tự
 6. Tìm kiếm và thay thế các ký tự 
 7. Thoát chương trình
-==========================
+
 Moi nhap lua chon:`);
   switch (choice) {
     case 1:

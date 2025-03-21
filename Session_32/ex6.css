@@ -1,0 +1,23 @@
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+}
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.buttons button:nth-child(1) {
+    background-color: red;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+}
+.buttons button:nth-child(2) {
+    background-color: green;
+    padding: 5px 13px;
+    cursor: pointer;
+    border: none;
+}

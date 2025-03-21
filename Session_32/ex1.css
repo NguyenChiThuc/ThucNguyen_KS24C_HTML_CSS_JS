@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    gap: 20px;
+}
+.green-box{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

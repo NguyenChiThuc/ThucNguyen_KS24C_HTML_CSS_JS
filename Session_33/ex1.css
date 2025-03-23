@@ -1,0 +1,21 @@
+.enter-box{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.eye-button{
+    top: 15px;
+    right: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+.input-container{
+    position: relative;
+    width: 250px;
+    height: 30px;
+}
+
+input::-ms-reveal{
+    display: none;
+}

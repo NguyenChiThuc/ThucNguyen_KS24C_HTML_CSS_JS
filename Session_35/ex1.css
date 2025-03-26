@@ -1,0 +1,23 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #a5a3a3;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin-left: 5px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex2.css">
+</head>
+
+<body>
+    <div id="container">
+        <button id="add" onclick="openBookMark()">ADD BOOKMARK</button>
+        <div id="bookMarkList"></div>
+        <div id="addCard">
+            <div id="click">
+                <span>Add Bookmark</span>
+                <span class="close" onclick="closeBookMark()">X</span>
+            </div>
+            <form action="" method="get" id="form-web">
+                <label for="">Website Name</label>
+                <br>
+                <input type="text" name="text" id="name">
+                <br>
+                <label for="">Website URL</label>
+                <br>
+                <input type="url" name="url" id="link">
+                <br>
+                <button id="saveBtn" type="submit">Save</button>
+            </form>
+        </div>
+    </div>
+    <script src="./ex2.js"></script>
+</body>
+
+</html>
